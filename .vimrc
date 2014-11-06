@@ -85,3 +85,6 @@ set number
 
 " Show 7 lines to the cursor
 set so=7
+
+" Always display statusline
+set laststatus=2
