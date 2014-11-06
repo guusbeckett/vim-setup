@@ -86,5 +86,6 @@ set number
 " Show 7 lines to the cursor
 set so=7
 
-" Always display statusline
+" Airline configuration
+let g:airline_powerline_fonts = 1
 set laststatus=2
