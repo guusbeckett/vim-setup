@@ -96,3 +96,7 @@ set laststatus=2
 
 " Shortcut to toggle NERDTree
 map <C-n> :NERDTreeToggle<CR>
+
+" Reselect after indenting
+vnoremap > >gv
+vnoremap < <gv
