@@ -79,3 +79,6 @@ set wrap
 " Treat long lines as break lines
 map j gj
 map k gk
+
+" Show linenumbers
+set number
