@@ -93,3 +93,6 @@ set hidden
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 set laststatus=2
+
+" Shortcut to toggle NERDTree
+map <C-n> :NERDTreeToggle<CR>
