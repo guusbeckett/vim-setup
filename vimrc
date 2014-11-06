@@ -82,3 +82,6 @@ map k gk
 
 " Show linenumbers
 set number
+
+" Show 7 lines to the cursor
+set so=7
