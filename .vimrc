@@ -86,6 +86,9 @@ set number
 " Show 7 lines to the cursor
 set so=7
 
+" Switch buffers without saving them
+set hidden
+
 " Airline configuration
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
