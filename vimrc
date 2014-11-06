@@ -2,6 +2,9 @@
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+" Pathogen
+execute pathogen#infect()
+
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
@@ -44,9 +47,10 @@ set t_vb=
 set tm=500
 
 " Enable syntax highlighting
+set t_Co=16
 syntax enable
-colorscheme desert
-set background=light
+set background=dark
+colorscheme solarized
 
 " Set utf8 as standard encoding
 set encoding=utf8
@@ -75,6 +79,3 @@ set wrap
 " Treat long lines as break lines
 map j gj
 map k gk
-
-" Vim
-execute pathogen#infect()
