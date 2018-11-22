@@ -1,6 +1,9 @@
 " Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+Plugin 'rust-lang/rust.vim'
+Plugin 'w0rp/ale'
+Plugin 'neomake/neomake'
 
 " Pathogen
 execute pathogen#infect()
@@ -50,7 +53,7 @@ set tm=500
 set t_Co=16
 syntax enable
 set background=dark
-colorscheme solarized
+" colorscheme solarized
 
 " Set utf8 as standard encoding
 set encoding=utf8
