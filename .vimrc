@@ -103,3 +103,7 @@ map <C-n> :NERDTreeToggle<CR>
 " Reselect after indenting
 vnoremap > >gv
 vnoremap < <gv
+
+" Set syntax to yaml for sls files (Salt state files)
+autocmd BufNewFile,BufRead *.sls set syntax=yaml
+
