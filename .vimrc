@@ -8,6 +8,10 @@ Plugin 'neomake/neomake'
 " Pathogen
 execute pathogen#infect()
 
+" Quickly switch buffer
+map <C-J> :bnext<CR>
+map <C-K> :bprev<CR>
+
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
